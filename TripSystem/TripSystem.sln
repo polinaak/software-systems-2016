@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripSystem.Models", "TripSystem.Models\TripSystem.Models.csproj", "{DFE7047B-165D-493B-9E30-1138DF146190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripSystem.Services", "TripSystem.Services\TripSystem.Services.csproj", "{23EFB186-DF0F-46C6-B35A-B45BFD3327A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripSystem.WebClient", "TripSystem.WebClient\TripSystem.WebClient.csproj", "{7CFDE530-9113-46B1-A925-EBD1486CCAD0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE7047B-165D-493B-9E30-1138DF146190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE7047B-165D-493B-9E30-1138DF146190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE7047B-165D-493B-9E30-1138DF146190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE7047B-165D-493B-9E30-1138DF146190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EFB186-DF0F-46C6-B35A-B45BFD3327A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EFB186-DF0F-46C6-B35A-B45BFD3327A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EFB186-DF0F-46C6-B35A-B45BFD3327A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EFB186-DF0F-46C6-B35A-B45BFD3327A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFDE530-9113-46B1-A925-EBD1486CCAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFDE530-9113-46B1-A925-EBD1486CCAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFDE530-9113-46B1-A925-EBD1486CCAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFDE530-9113-46B1-A925-EBD1486CCAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
